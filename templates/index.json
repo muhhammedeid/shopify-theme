@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "video_banner": {
@@ -21,7 +30,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop Now",
-            "button_link_1": "shopify:\/\/collections\/all",
+            "button_link_1": "shopify://collections/all",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -35,7 +44,8 @@
         "button"
       ],
       "settings": {
-        "cover_image": "shopify:\/\/shop_images\/moah_shoes_banner_3.png",
+        "video": "shopify://files/videos/Woman_sitting_in_luxury_cafe_202606041611.mp4",
+        "cover_image": "shopify://shop_images/moah_shoes_banner_3.png",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "desktop_content_position": "middle-center",
@@ -81,12 +91,12 @@
         "row_eRbqRG": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Row_image.jpg",
+            "image": "shopify://shop_images/Row_image.jpg",
             "caption": "MOAH SIGNATURE",
             "heading": "Elegant Styles Made for Every Step",
-            "text": "<p>From sophisticated heels to everyday chic bags and trendy women’s shoes, MOAH brings you fashion pieces designed to make you feel confident, feminine, and effortlessly stylish. Discover premium designs inspired by modern elegance and crafted to complete every outfit — whether it’s a casual day out or a special night occasion.<\/p>",
+            "text": "<p>From sophisticated heels to everyday chic bags and trendy women’s shoes, MOAH brings you fashion pieces designed to make you feel confident, feminine, and effortlessly stylish. Discover premium designs inspired by modern elegance and crafted to complete every outfit — whether it’s a casual day out or a special night occasion.</p>",
             "button_label": "Explore New Arrivals",
-            "button_link": "shopify:\/\/collections"
+            "button_link": "shopify://collections"
           }
         }
       },
@@ -164,14 +174,14 @@
         "text_wLmBJt": {
           "type": "text",
           "settings": {
-            "text": "<p>Discover elegant women’s shoes, statement heels, and timeless bags designed to elevate your everyday style. At MOAH, we blend fashion, comfort, and confidence to bring you pieces that complete every look — from casual chic to special occasions.<\/p>"
+            "text": "<p>Discover elegant women’s shoes, statement heels, and timeless bags designed to elevate your everyday style. At MOAH, we blend fashion, comfort, and confidence to bring you pieces that complete every look — from casual chic to special occasions.</p>"
           }
         },
         "button_WhM4tc": {
           "type": "button",
           "settings": {
             "button_label": "Shop The Collections",
-            "button_link": "shopify:\/\/collections",
+            "button_link": "shopify://collections",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
