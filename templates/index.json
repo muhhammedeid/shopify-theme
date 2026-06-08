@@ -1,6 +1,6 @@
 {
   "sections": {
-    "image_banner": {
+    "video_banner": {
       "type": "video-banner",
       "blocks": {
         "heading": {
@@ -202,7 +202,7 @@
     }
   },
   "order": [
-    "image_banner",
+    "video_banner",
     "featured_collection",
     "multirow_XcbQVw",
     "collection_list_TnDEbd",
