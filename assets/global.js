@@ -194,6 +194,95 @@ function pauseAllMedia() {
   });
 }
 
+const productCardHoverVideos = (() => {
+  const activeClass = 'is-hover-video-active';
+  const boundAttribute = 'data-hover-video-bound';
+  const visibleThreshold = 0.65;
+  let observer = null;
+
+  const isHoverDevice = () => window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+
+  const resetVideo = (card, video) => {
+    card.classList.remove(activeClass);
+    video.pause();
+
+    try {
+      video.currentTime = 0;
+    } catch {
+      // Some browsers can reject currentTime changes before metadata is ready.
+    }
+  };
+
+  const playVideo = (card, video) => {
+    video.muted = true;
+    video.playsInline = true;
+    card.classList.add(activeClass);
+
+    const playPromise = video.play();
+    if (playPromise !== undefined) {
+      playPromise.catch(() => resetVideo(card, video));
+    }
+  };
+
+  const getObserver = () => {
+    if (observer || !('IntersectionObserver' in window)) return observer;
+
+    observer = new IntersectionObserver(
+      (entries) => {
+        if (isHoverDevice()) return;
+
+        entries.forEach((entry) => {
+          const card = entry.target.closest('.product-card-wrapper');
+          const video = card?.querySelector('.card__hover-video');
+
+          if (!card || !video) return;
+
+          if (entry.intersectionRatio >= visibleThreshold) {
+            playVideo(card, video);
+          } else {
+            resetVideo(card, video);
+          }
+        });
+      },
+      { threshold: [0, visibleThreshold, 1] }
+    );
+
+    return observer;
+  };
+
+  const init = (root = document) => {
+    root.querySelectorAll(`.product-card-wrapper:not([${boundAttribute}])`).forEach((card) => {
+      const video = card.querySelector('.card__hover-video');
+      if (!video) return;
+
+      card.setAttribute(boundAttribute, 'true');
+      video.muted = true;
+      video.loop = true;
+      video.playsInline = true;
+
+      card.addEventListener('mouseenter', () => {
+        if (isHoverDevice()) playVideo(card, video);
+      });
+
+      card.addEventListener('mouseleave', () => {
+        if (isHoverDevice()) resetVideo(card, video);
+      });
+
+      getObserver()?.observe(card.querySelector('.card__media') || card);
+    });
+  };
+
+  return { init };
+})();
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', () => productCardHoverVideos.init());
+} else {
+  productCardHoverVideos.init();
+}
+
+document.addEventListener('shopify:section:load', (event) => productCardHoverVideos.init(event.target));
+
 function removeTrapFocus(elementToFocus = null) {
   document.removeEventListener('focusin', trapFocusHandlers.focusin);
   document.removeEventListener('focusout', trapFocusHandlers.focusout);
@@ -1159,6 +1248,7 @@ class ProductRecommendations extends HTMLElement {
 
         if (recommendations?.innerHTML.trim().length) {
           this.innerHTML = recommendations.innerHTML;
+          productCardHoverVideos.init(this);
         }
 
         if (!this.querySelector('slideshow-component') && this.classList.contains('complementary-products')) {

@@ -1,0 +1,59 @@
+﻿{
+    "title":  "MOAH Studded Mesh Mule Heel",
+    "handle":  "moah-studded-mesh-mule-heel",
+    "body_html":  "\u003cdiv\u003e\u003cp\u003eصندل كعب نسائي فاخر من MOAH بتصميم شبكي شفاف وتفاصيل مرصعة لامعة، يمنح الإطلالة لمسة أنيقة وراقية.\u003c/p\u003e\u003cul\u003e\u003cli\u003eتصميم مول مفتوح بمقدمة مربعة عصرية.\u003c/li\u003e\u003cli\u003eخامة شبكية ناعمة مع تطريز مرصع بتفاصيل ذهبية وكريستالية.\u003c/li\u003e\u003cli\u003eكعب مرتفع رفيع مع لمسة ذهبية عند القاعدة.\u003c/li\u003e\u003cli\u003eمناسب للسهرات، المناسبات الخاصة، والإطلالات الفاخرة.\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+    "type":  "Women\u0027s Heels",
+    "tags":  [
+                 "women heels",
+                 "mule heel",
+                 "mesh heel",
+                 "studded heel",
+                 "square toe",
+                 "embellished sandal",
+                 "evening sandals",
+                 "luxury footwear",
+                 "MOAH",
+                 "black",
+                 "white",
+                 "Brown"
+             ],
+    "seo_title":  "MOAH Studded Mesh Mule Heel | Luxury Women\u0027s Sandals",
+    "seo_description":  "اكتشفي صندل MOAH الشبكي المرصع بتصميم مول ومقدمة مربعة وكعب أنيق، متوفر بألوان الأسود والأبيض والبني ومقاسات من 37 إلى 41.",
+    "product_category":  "Apparel \u0026 Accessories \u003e Shoes",
+    "toe_style":  "Square toe",
+    "heel_height_type":  "High heel",
+    "occasion_style":  [
+                           "Evening",
+                           "Party",
+                           "Wedding"
+                       ],
+    "footwear_material":  [
+                              "Mesh",
+                              "Textile",
+                              "Synthetic",
+                              "Rhinestone"
+                          ],
+    "target_gender":  "Female",
+    "available_colors":  [
+                             "black",
+                             "white",
+                             "Brown"
+                         ],
+    "sizes":  [
+                  "37",
+                  "38",
+                  "39",
+                  "40",
+                  "41"
+              ],
+    "variant_count":  15,
+    "variant_structure":  "Color x Size, sizes 37-41 for each available color.",
+    "status":  "draft",
+    "price_placeholder":  "0.00",
+    "media":  [
+                  "product-media/moah-studded-mesh-mule-heel/01-side-left.jpg",
+                  "product-media/moah-studded-mesh-mule-heel/02-top-3q-front.jpg",
+                  "product-media/moah-studded-mesh-mule-heel/03-side-right.jpg"
+              ],
+    "image_note":  "Generated media is based on the brown source shoe. Black and white are listed as available color variants but do not yet have separate color-specific generated images."
+}

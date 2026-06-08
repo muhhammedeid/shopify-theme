@@ -1,0 +1,116 @@
+{
+  "handle": "moah-rhinestone-mesh-mule-heel",
+  "vendor": "MOAH",
+  "status": "draft",
+  "price": "0.00",
+  "product_category": "Apparel & Accessories > Shoes",
+  "type": "Women's Heels",
+  "titles": {
+    "en": "MOAH Rhinestone Mesh Mule Heel",
+    "ar": "حذاء مول بكعب من MOAH مزين بشبك الراينستون"
+  },
+  "seo": {
+    "title_en": "MOAH Rhinestone Mesh Mule Heel | Luxury Women's Heels",
+    "title_ar": "حذاء مول بكعب من MOAH مزين بشبك الراينستون | أحذية نسائية فاخرة",
+    "description_en": "A luxury MOAH open-toe mule heel with metallic silver and gold colorways, a sculpted heel, square toe, and rhinestone mesh vamp for elegant evening styling.",
+    "description_ar": "حذاء مول نسائي فاخر من MOAH بتصميم مفتوح من الأمام، مقدمة مربعة، كعب منحوت، وشبك مرصع بالراينستون بدرجتي الفضي والذهبي لإطلالات أنيقة."
+  },
+  "body_html": {
+    "en": "<div><h3>MOAH Rhinestone Mesh Mule Heel</h3><p>A polished open-toe mule heel crafted for refined evening looks, designed with a metallic finish and a wide rhinestone mesh vamp that catches the light beautifully.</p><ul><li>Open square-toe mule silhouette with an elegant open back.</li><li>Dense rhinestone mesh vamp with a scalloped upper edge.</li><li>Metallic silver and gold colorways for versatile occasion styling.</li><li>Sculpted low-to-mid heel with a glossy sole rim and padded insole feel.</li><li>Ideal for evenings, weddings, parties, and premium occasion wear.</li></ul></div>",
+    "ar": "<div><h3>حذاء مول بكعب من MOAH مزين بشبك الراينستون</h3><p>تصميم مفتوح فاخر يمنح الإطلالة لمسة لامعة وراقية، مع تشطيب معدني وشبك عريض مرصع بالراينستون يعكس الضوء بأسلوب أنثوي أنيق.</p><ul><li>قصة مول مفتوحة من الخلف مع مقدمة مربعة مفتوحة.</li><li>شبك عريض مرصع بكثافة بأحجار الراينستون وحافة علوية ناعمة.</li><li>متوفر بدرجتي الفضي والذهبي لإطلالات متعددة.</li><li>كعب منحوت منخفض إلى متوسط مع حافة نعل لامعة وبطانة مبطنة المظهر.</li><li>مناسب للسهرات، حفلات الزفاف، المناسبات، والإطلالات الفاخرة.</li></ul></div>"
+  },
+  "attributes": {
+    "toe_style": {
+      "en": "Square open toe",
+      "ar": "مقدمة مربعة مفتوحة"
+    },
+    "heel_height_type": {
+      "en": "Mid heel",
+      "ar": "كعب متوسط"
+    },
+    "occasion_style": {
+      "en": "Evening; Party; Wedding; Occasion",
+      "ar": "سهرة؛ حفلات؛ زفاف؛ مناسبات"
+    },
+    "footwear_material": {
+      "en": "Synthetic metallic upper; Mesh; Rhinestones",
+      "ar": "خامة صناعية معدنية؛ شبك؛ راينستون"
+    },
+    "target_gender": {
+      "en": "Female",
+      "ar": "نساء"
+    },
+    "age_group": "Adult",
+    "closure_type": {
+      "en": "Slip-on",
+      "ar": "سهل الارتداء"
+    }
+  },
+  "colors": [
+    {
+      "en": "Silver",
+      "ar": "فضي"
+    },
+    {
+      "en": "Gold",
+      "ar": "ذهبي"
+    }
+  ],
+  "sizes": [
+    "37",
+    "38",
+    "39",
+    "40",
+    "41"
+  ],
+  "tags": [
+    "MOAH",
+    "women heels",
+    "mule heel",
+    "rhinestone heel",
+    "mesh heel",
+    "square toe",
+    "open toe",
+    "occasion shoes",
+    "luxury footwear",
+    "silver",
+    "gold",
+    "أحذية نسائية",
+    "كعب نسائي",
+    "مول",
+    "راينستون",
+    "مقدمة مربعة",
+    "فضي",
+    "ذهبي"
+  ],
+  "media": [
+    {
+      "path": "product-media/moah-rhinestone-mesh-mule-heel/01-side-left.jpg",
+      "alt_en": "MOAH Rhinestone Mesh Mule Heel in silver - side left view",
+      "alt_ar": "حذاء مول من MOAH مزين بشبك الراينستون باللون الفضي - منظر جانبي لليسار"
+    },
+    {
+      "path": "product-media/moah-rhinestone-mesh-mule-heel/02-top-3q-front.jpg",
+      "alt_en": "MOAH Rhinestone Mesh Mule Heel in gold - top three-quarter front view",
+      "alt_ar": "حذاء مول من MOAH مزين بشبك الراينستون باللون الذهبي - منظر علوي أمامي بزاوية"
+    },
+    {
+      "path": "product-media/moah-rhinestone-mesh-mule-heel/03-side-right.jpg",
+      "alt_en": "MOAH Rhinestone Mesh Mule Heel in silver - side right view",
+      "alt_ar": "حذاء مول من MOAH مزين بشبك الراينستون باللون الفضي - منظر جانبي لليمين"
+    },
+    {
+      "path": "product-media/moah-rhinestone-mesh-mule-heel/04-lifestyle-reference-style.jpg",
+      "alt_en": "MOAH Rhinestone Mesh Mule Heel in gold worn on foot - lifestyle studio view",
+      "alt_ar": "حذاء مول من MOAH مزين بشبك الراينستون باللون الذهبي أثناء الارتداء - صورة ستوديو"
+    }
+  ],
+  "source_references": [
+    "product-media/moah-rhinestone-mesh-mule-heel/source-reference-silver.png",
+    "product-media/moah-rhinestone-mesh-mule-heel/source-reference-gold.png"
+  ],
+  "product_notes": {
+    "en": "Generated catalog images use clean ecommerce backgrounds and remove visible insole label text. Lifestyle image follows the provided premium try-on reference style.",
+    "ar": "تم إنشاء صور الكتالوج بخلفيات نظيفة مناسبة للتجارة الإلكترونية مع إزالة النص الظاهر على البطانة. صورة اللايف ستايل تتبع أسلوب تجربة الارتداء الفاخر حسب المراجع."
+  }
+}

@@ -401,6 +401,14 @@
     transform: scale(1.03);
   }
 
+  .card-wrapper:hover .media.media--hover-effect.media--hover-video > img:first-child:not(:only-child) {
+    opacity: 1;
+  }
+
+  .card-wrapper.is-hover-video-active:hover .media.media--hover-effect.media--hover-video > img:first-child:not(:only-child) {
+    opacity: 0;
+  }
+
   .underline-links-hover:hover a {
     text-decoration: underline;
     text-underline-offset: 0.3rem;

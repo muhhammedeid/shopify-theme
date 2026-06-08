@@ -38,6 +38,11 @@
   if target == product and product.price_varies
     assign money_price = 'products.product.price.from_price_html' | t: price: money_price
   endif
+
+  assign sale_percentage = 0
+  if compare_at_price > price
+    assign sale_percentage = compare_at_price | minus: price | times: 100.0 | divided_by: compare_at_price | round
+  endif
 -%}
 
 {%- unless target == null and placeholder == null -%}
@@ -114,7 +119,7 @@
     </div>
     {%- if show_badges -%}
       <span class="badge price__badge-sale color-{{ settings.sale_badge_color_scheme }}">
-        {{ 'products.product.on_sale' | t }}
+        {{ sale_percentage }}%
       </span>
 
       <span class="badge price__badge-sold-out color-{{ settings.sold_out_badge_color_scheme }}">

@@ -1,0 +1,127 @@
+{
+  "handle": "moah-bow-lace-slingback-pump",
+  "vendor": "MOAH",
+  "status": "draft",
+  "price": "0.00",
+  "product_category": "Apparel & Accessories > Shoes",
+  "type": "Women's Heels",
+  "titles": {
+    "en": "MOAH Bow Lace Slingback Pump",
+    "ar": "حذاء سلينغ باك دانتيل من MOAH بفيونكة"
+  },
+  "seo": {
+    "title_en": "MOAH Bow Lace Slingback Pump | Luxury Women's Heels",
+    "title_ar": "حذاء سلينغ باك دانتيل من MOAH بفيونكة | أحذية نسائية فاخرة",
+    "description_en": "A luxury MOAH pointed slingback pump with floral lace mesh, a front bow, ribbed back strap, sculptural high heel, and crystal heel accent in black, white, and beige.",
+    "description_ar": "حذاء سلينغ باك فاخر من MOAH بمقدمة مدببة، دانتيل شبكي بنقشة زهرية، فيونكة أمامية، حزام خلفي محكم، كعب منحوت عال، وتفصيلة كريستالية بألوان الأسود والأبيض والبيج."
+  },
+  "body_html": {
+    "en": "<div><h3>MOAH Bow Lace Slingback Pump</h3><p>A refined slingback pump designed with romantic lace texture, a sculptural heel, and a polished bow detail for elegant occasion dressing.</p><ul><li>Pointed slingback silhouette with a ribbed back strap.</li><li>Sheer floral lace mesh upper with raised black trim.</li><li>Front bow detail for a feminine evening finish.</li><li>Glossy sculptural high heel with a square crystal accent.</li><li>Available in black, white, and beige for elevated occasion styling.</li></ul></div>",
+    "ar": "<div><h3>حذاء سلينغ باك دانتيل من MOAH بفيونكة</h3><p>تصميم سلينغ باك أنيق يجمع بين ملمس الدانتيل الرومانسي والكعب المنحوت وتفصيلة الفيونكة الراقية لإطلالة مناسبات فاخرة.</p><ul><li>قصة سلينغ باك مدببة مع حزام خلفي محكم الملمس.</li><li>واجهة دانتيل شبكي شفاف بنقشة زهرية وحواف بارزة.</li><li>فيونكة أمامية تمنح التصميم لمسة أنثوية راقية.</li><li>كعب عال لامع بتصميم منحوت وتفصيلة كريستالية مربعة.</li><li>متوفر بألوان الأسود والأبيض والبيج لإطلالات المناسبات.</li></ul></div>"
+  },
+  "attributes": {
+    "toe_style": {
+      "en": "Pointed toe",
+      "ar": "مقدمة مدببة"
+    },
+    "heel_height_type": {
+      "en": "High heel",
+      "ar": "كعب عال"
+    },
+    "occasion_style": {
+      "en": "Evening; Party; Wedding; Occasion",
+      "ar": "سهرة؛ حفلات؛ زفاف؛ مناسبات"
+    },
+    "footwear_material": {
+      "en": "Synthetic upper; Floral lace mesh; Textile bow; Crystal accent",
+      "ar": "خامة صناعية؛ دانتيل شبكي زهري؛ فيونكة قماشية؛ تفصيلة كريستالية"
+    },
+    "target_gender": {
+      "en": "Female",
+      "ar": "نساء"
+    },
+    "age_group": "Adult",
+    "closure_type": {
+      "en": "Slingback",
+      "ar": "سلينغ باك"
+    }
+  },
+  "colors": [
+    {
+      "en": "Black",
+      "ar": "أسود"
+    },
+    {
+      "en": "White",
+      "ar": "أبيض"
+    },
+    {
+      "en": "Beige",
+      "ar": "بيج"
+    }
+  ],
+  "sizes": [
+    "37",
+    "38",
+    "39",
+    "40",
+    "41"
+  ],
+  "tags": [
+    "MOAH",
+    "women heels",
+    "slingback pump",
+    "lace heel",
+    "bow heel",
+    "crystal heel",
+    "pointed toe",
+    "evening shoes",
+    "luxury footwear",
+    "black",
+    "white",
+    "beige",
+    "أحذية نسائية",
+    "كعب نسائي",
+    "سلينغ باك",
+    "دانتيل",
+    "فيونكة",
+    "كريستال",
+    "أسود",
+    "أبيض",
+    "بيج"
+  ],
+  "media": [
+    {
+      "path": "product-media/moah-bow-lace-slingback-pump/01-side-left.jpg",
+      "alt_en": "MOAH Bow Lace Slingback Pump in black - side left view",
+      "alt_ar": "حذاء سلينغ باك دانتيل من MOAH بفيونكة باللون الأسود - منظر جانبي لليسار",
+      "status": "generated"
+    },
+    {
+      "path": "product-media/moah-bow-lace-slingback-pump/02-top-3q-front.jpg",
+      "alt_en": "MOAH Bow Lace Slingback Pump - top three-quarter front view",
+      "alt_ar": "حذاء سلينغ باك دانتيل من MOAH بفيونكة - منظر علوي أمامي بزاوية",
+      "status": "pending_generation"
+    },
+    {
+      "path": "product-media/moah-bow-lace-slingback-pump/03-side-right.jpg",
+      "alt_en": "MOAH Bow Lace Slingback Pump - side right view",
+      "alt_ar": "حذاء سلينغ باك دانتيل من MOAH بفيونكة - منظر جانبي لليمين",
+      "status": "pending_generation"
+    },
+    {
+      "path": "product-media/moah-bow-lace-slingback-pump/04-lifestyle-reference-style.jpg",
+      "alt_en": "MOAH Bow Lace Slingback Pump worn on foot - lifestyle studio view",
+      "alt_ar": "حذاء سلينغ باك دانتيل من MOAH بفيونكة أثناء الارتداء - صورة ستوديو",
+      "status": "pending_generation"
+    }
+  ],
+  "source_references": [
+    "product-media/moah-bow-lace-slingback-pump/source-reference-side.png",
+    "product-media/moah-bow-lace-slingback-pump/source-reference-top.png"
+  ],
+  "product_notes": {
+    "en": "Side-left media was generated and normalized to 1200x1500. The remaining three required media assets are pending because the image-generation service returned repeated server errors. CSV rows should be appended only after all four final media files exist.",
+    "ar": "تم إنشاء صورة الجانب الأيسر وتحويلها إلى مقاس 1200x1500. الصور الثلاث المتبقية معلقة بسبب أخطاء متكررة من خدمة توليد الصور. يجب إضافة صفوف CSV فقط بعد توفر الصور النهائية الأربع."
+  }
+}

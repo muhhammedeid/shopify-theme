@@ -1,0 +1,125 @@
+{
+  "handle": "moah-crystal-heel-mesh-slingback-pump",
+  "vendor": "MOAH",
+  "status": "draft",
+  "price": "0.00",
+  "product_category": "Apparel & Accessories > Shoes",
+  "type": "Women's Heels",
+  "titles": {
+    "en": "MOAH Crystal Heel Mesh Slingback Pump",
+    "ar": "حذاء سلينغ باك شبكي من MOAH بكعب كريستالي"
+  },
+  "seo": {
+    "title_en": "MOAH Crystal Heel Mesh Slingback Pump | Luxury Women's Heels",
+    "title_ar": "حذاء سلينغ باك شبكي من MOAH بكعب كريستالي | أحذية نسائية فاخرة",
+    "description_en": "A luxury MOAH slingback pump with a rhinestone mesh upper, stitched back strap, pointed front, slim high heel, and square crystal heel accent in black, white, and beige.",
+    "description_ar": "حذاء سلينغ باك فاخر من MOAH بواجهة شبكية مرصعة، حزام خلفي مخيط، مقدمة أنيقة، كعب رفيع عال، وتفصيلة كريستالية مربعة على الكعب بألوان الأسود والأبيض والبيج."
+  },
+  "body_html": {
+    "en": "<div><h3>MOAH Crystal Heel Mesh Slingback Pump</h3><p>A statement slingback heel designed with a sparkling mesh upper and a refined crystal accent set into the heel for a polished evening finish.</p><ul><li>Elegant slingback silhouette with a stitched back strap.</li><li>Rhinestone mesh upper with a delicate lattice texture.</li><li>Slim high heel finished with a square crystal accent.</li><li>Available in black, white, and beige.</li><li>Ideal for evenings, weddings, parties, and elevated occasion styling.</li></ul></div>",
+    "ar": "<div><h3>حذاء سلينغ باك شبكي من MOAH بكعب كريستالي</h3><p>تصميم سلينغ باك لافت بواجهة شبكية لامعة وتفصيلة كريستالية راقية على الكعب، ليمنح الإطلالة لمسة مسائية فاخرة.</p><ul><li>قصة سلينغ باك أنيقة مع حزام خلفي مخيط.</li><li>واجهة شبكية مرصعة بلمعة راقية ونمط شبكي واضح.</li><li>كعب رفيع عال مزين بتفصيلة كريستالية مربعة.</li><li>متوفر بألوان الأسود والأبيض والبيج.</li><li>مناسب للسهرات، حفلات الزفاف، الحفلات، والمناسبات الراقية.</li></ul></div>"
+  },
+  "attributes": {
+    "toe_style": {
+      "en": "Pointed toe",
+      "ar": "مقدمة مدببة"
+    },
+    "heel_height_type": {
+      "en": "High heel",
+      "ar": "كعب عال"
+    },
+    "occasion_style": {
+      "en": "Evening; Party; Wedding; Occasion",
+      "ar": "سهرة؛ حفلات؛ زفاف؛ مناسبات"
+    },
+    "footwear_material": {
+      "en": "Synthetic upper; Mesh; Rhinestones; Crystal accent",
+      "ar": "خامة صناعية؛ شبك؛ راينستون؛ تفصيلة كريستالية"
+    },
+    "target_gender": {
+      "en": "Female",
+      "ar": "نساء"
+    },
+    "age_group": "Adult",
+    "closure_type": {
+      "en": "Slingback",
+      "ar": "سلينغ باك"
+    }
+  },
+  "colors": [
+    {
+      "en": "Black",
+      "ar": "أسود"
+    },
+    {
+      "en": "White",
+      "ar": "أبيض"
+    },
+    {
+      "en": "Beige",
+      "ar": "بيج"
+    }
+  ],
+  "sizes": [
+    "37",
+    "38",
+    "39",
+    "40",
+    "41"
+  ],
+  "tags": [
+    "MOAH",
+    "women heels",
+    "slingback heel",
+    "mesh heel",
+    "crystal heel",
+    "rhinestone pump",
+    "pointed toe",
+    "evening shoes",
+    "luxury footwear",
+    "black",
+    "white",
+    "beige",
+    "أحذية نسائية",
+    "كعب نسائي",
+    "سلينغ باك",
+    "شبك",
+    "كريستال",
+    "أسود",
+    "أبيض",
+    "بيج"
+  ],
+  "media": [
+    {
+      "path": "product-media/moah-crystal-heel-mesh-slingback-pump/01-side-left.jpg",
+      "alt_en": "MOAH Crystal Heel Mesh Slingback Pump - side left view",
+      "alt_ar": "حذاء سلينغ باك شبكي من MOAH بكعب كريستالي - منظر جانبي لليسار",
+      "status": "pending_generation"
+    },
+    {
+      "path": "product-media/moah-crystal-heel-mesh-slingback-pump/02-top-3q-front.jpg",
+      "alt_en": "MOAH Crystal Heel Mesh Slingback Pump - top three-quarter front view",
+      "alt_ar": "حذاء سلينغ باك شبكي من MOAH بكعب كريستالي - منظر علوي أمامي بزاوية",
+      "status": "pending_generation"
+    },
+    {
+      "path": "product-media/moah-crystal-heel-mesh-slingback-pump/03-side-right.jpg",
+      "alt_en": "MOAH Crystal Heel Mesh Slingback Pump - side right view",
+      "alt_ar": "حذاء سلينغ باك شبكي من MOAH بكعب كريستالي - منظر جانبي لليمين",
+      "status": "pending_generation"
+    },
+    {
+      "path": "product-media/moah-crystal-heel-mesh-slingback-pump/04-lifestyle-reference-style.jpg",
+      "alt_en": "MOAH Crystal Heel Mesh Slingback Pump worn on foot - lifestyle studio view",
+      "alt_ar": "حذاء سلينغ باك شبكي من MOAH بكعب كريستالي أثناء الارتداء - صورة ستوديو",
+      "status": "pending_generation"
+    }
+  ],
+  "source_references": [
+    "product-media/moah-crystal-heel-mesh-slingback-pump/source-reference-black.png"
+  ],
+  "product_notes": {
+    "en": "Media generation was attempted but blocked by repeated image-generation service errors before any generated assets were saved. CSV rows should be appended after the four final 1200x1500 JPGs exist.",
+    "ar": "تمت محاولة إنشاء الصور لكن توقفت بسبب أخطاء متكررة من خدمة توليد الصور قبل حفظ أي أصول مولدة. يجب إضافة صفوف CSV بعد توفر صور JPG النهائية الأربعة بمقاس 1200x1500."
+  }
+}
