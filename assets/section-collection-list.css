@@ -5,6 +5,15 @@
 
 .collection-list-title {
   margin: 0;
+  color: #6c5555;
+}
+
+.section-collection-list .collection-card-wrapper .card__heading,
+.section-collection-list .collection-card-wrapper .card__heading a,
+.section-collection-list .collection-card-wrapper .card__caption,
+.section-collection-list .collection-list-view-all a,
+.section-collection-list .title-wrapper-with-link .link {
+  color: #6c5555;
 }
 
 @media screen and (max-width: 749px) {

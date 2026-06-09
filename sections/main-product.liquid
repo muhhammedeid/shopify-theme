@@ -41,6 +41,7 @@
 
   <script src="{{ 'product-info.js' | asset_url }}" defer="defer"></script>
   <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
+  <script src="{{ 'product-cod-order.js' | asset_url }}" defer="defer"></script>
   {%- if product.quantity_price_breaks_configured? -%}
     <script src="{{ 'show-more.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'price-per-item.js' | asset_url }}" defer="defer"></script>
@@ -680,6 +681,78 @@
             {{ 'products.product.view_full_details' | t }}
             {{- 'icon-arrow.svg' | inline_asset_content -}}
           </a>
+        </section>
+        <section
+          id="CodOrder-{{ section.id }}"
+          class="product-cod-order"
+          data-section-id="{{ section.id }}"
+          data-product-form-id="{{ product_form_id }}"
+          data-product-title="{{ product.title | escape }}"
+        >
+          <h2 class="product-cod-order__title">Please fill your information to complete the order</h2>
+          <p class="product-cod-order__subtitle">Choose Cash on Delivery and complete your details.</p>
+
+          <form class="product-cod-order__form" novalidate>
+            <input type="hidden" name="quantity" value="1">
+
+            <div class="product-cod-order__field">
+              <label class="product-cod-order__label" for="CodFullName-{{ section.id }}">الاسم بالكامل</label>
+              <input
+                id="CodFullName-{{ section.id }}"
+                class="product-cod-order__input"
+                type="text"
+                name="full_name"
+                autocomplete="name"
+                required
+              >
+              <p class="product-cod-order__error" data-error-for="full_name">This field is required</p>
+            </div>
+
+            <div class="product-cod-order__field">
+              <label class="product-cod-order__label" for="CodPhone-{{ section.id }}">رقم الهاتف</label>
+              <input
+                id="CodPhone-{{ section.id }}"
+                class="product-cod-order__input"
+                type="tel"
+                name="phone"
+                autocomplete="tel"
+                inputmode="tel"
+                required
+              >
+              <p class="product-cod-order__error" data-error-for="phone">This field is required</p>
+            </div>
+
+            <div class="product-cod-order__field">
+              <label class="product-cod-order__label" for="CodAddress-{{ section.id }}">العنوان</label>
+              <textarea
+                id="CodAddress-{{ section.id }}"
+                class="product-cod-order__textarea"
+                name="address"
+                rows="4"
+                autocomplete="street-address"
+                required
+              ></textarea>
+              <p class="product-cod-order__error" data-error-for="address">This field is required</p>
+            </div>
+
+            <div class="product-cod-order__payment" aria-label="Choose Payment Method">
+              <p class="product-cod-order__payment-title">Choose Payment Method</p>
+              <label class="product-cod-order__payment-option">
+                <input type="radio" name="payment_method" value="COD" checked>
+                <span>
+                  <strong>الدفع عند الاستلام</strong>
+                  <small>ادفع نقدا عند استلام الطلب</small>
+                </span>
+              </label>
+            </div>
+
+            <p class="product-cod-order__message" role="alert" hidden></p>
+
+            <button type="submit" class="button button--full-width product-cod-order__submit">
+              <span>Buy now</span>
+              {%- render 'loading-spinner' -%}
+            </button>
+          </form>
         </section>
       </div>
     </div>

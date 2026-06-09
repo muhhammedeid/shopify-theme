@@ -94,7 +94,17 @@
             {%- render 'loading-spinner' -%}
           </button>
           {%- if show_dynamic_checkout -%}
-            {{ form | payment_button }}
+            {%- if template.name == 'product' -%}
+              <button
+                type="button"
+                class="shopify-payment-button__button shopify-payment-button__button--unbranded button button--full-width product-cod-scroll-button"
+                data-cod-scroll-target="CodOrder-{{ section_id }}"
+              >
+                Buy now
+              </button>
+            {%- else -%}
+              {{ form | payment_button }}
+            {%- endif -%}
           {%- endif -%}
         </div>
       {%- endform -%}

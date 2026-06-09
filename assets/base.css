@@ -4011,3 +4011,18 @@ details-disclosure > details {
 .card__information .price__sale .price-item--sale {
     font-size: 13px !important;
 }
+
+.product-form__submit,
+.cart__checkout-button,
+.shopify-payment-button__button {
+  background: #6c5555 !important;
+  color: #ffffff !important;
+  border-color: #6c5555 !important;
+}
+
+.product-form__submit:hover,
+.cart__checkout-button:hover,
+.shopify-payment-button__button:hover {
+  background: #5c4848 !important;
+  color: #ffffff !important;
+}
